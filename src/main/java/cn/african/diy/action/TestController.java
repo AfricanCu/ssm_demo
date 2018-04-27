@@ -1,4 +1,4 @@
-package cn.african.controller;
+package cn.african.diy.action;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import cn.african.domain.User;
-import cn.african.service.UserService;
+import cn.african.diy.biz.UserService;
+import cn.african.diy.entity.User;
 import net.sf.json.JSONArray;
 
 @Controller

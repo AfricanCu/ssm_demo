@@ -1,4 +1,4 @@
-package cn.african.domain;
+package cn.african.diy.entity;
 
 public class User {
 	private int id;

@@ -1,8 +1,8 @@
-package cn.african.service;
+package cn.african.diy.biz;
 
 import java.util.List;
 
-import cn.african.domain.User;
+import cn.african.diy.entity.User;
 
 public interface UserService {
 	

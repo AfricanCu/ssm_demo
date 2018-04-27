@@ -3,8 +3,12 @@
 PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+	<settings>
+		<setting name="logImpl" value="LOG4J" />
+	</settings>
+
 	<!-- 配置别名 -->
 	<typeAliases>
-		<package name="cn.african.domain"/>
+		<package name="cn.african.diy.entity"/>
 	</typeAliases>
 </configuration>
